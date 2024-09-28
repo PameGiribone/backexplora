@@ -27,7 +27,7 @@ import com.backend.webExplora.dto.salida.ReservaSalidaDto;
 import com.backend.webExplora.entity.Reserva;
 import com.backend.webExplora.service.IReservaService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://accurate-spontaneity-production.up.railway.app:5173")
 @RestController
 @RequestMapping("/reservar/")
 @Validated

@@ -26,7 +26,7 @@ import com.backend.webExplora.entity.Favorito;
 import com.backend.webExplora.entity.Producto;
 import com.backend.webExplora.service.impl.FavoritoService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://accurate-spontaneity-production.up.railway.app:5173")
 @RestController
 @RequestMapping("/favoritos")
 @Validated

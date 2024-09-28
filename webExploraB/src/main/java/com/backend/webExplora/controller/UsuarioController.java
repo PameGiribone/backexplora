@@ -24,7 +24,7 @@ import com.backend.webExplora.exceptions.CredencialesIncorrectasException;
 import com.backend.webExplora.exceptions.UsuarioNoEncontradoException;
 import com.backend.webExplora.service.IUsuarioService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://accurate-spontaneity-production.up.railway.app:5173")
 @RestController
 @RequestMapping("/usuarios")
 @Validated

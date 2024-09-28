@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://accurate-spontaneity-production.up.railway.app:5173")
 @RestController
 @RequestMapping("/api/productos")
 @Validated
