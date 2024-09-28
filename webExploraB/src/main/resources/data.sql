@@ -1,12 +1,12 @@
 
-INSERT IGNORE INTO CATEGORIAS (nombre, ubicacion, imagen)
+INSERT IGNORE INTO categorias (nombre, ubicacion, imagen)
 VALUES 
 ("NIEVE", "", "https://barilocheturismo.gob.ar/images/actividades/nieve/ski-01.jpg"), 
 ("PLAYAS", "", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/77/c4/ed/img-20190213-wa0063-largejpg.jpg"), 
 ("TREKKING", "", "https://s1.wklcdn.com/image_201/6059775/91336779/59655349Master.jpg"), 
 ("BODEGAS", "", "https://www.argentina4u.com/pub/media/wysiwyg/Argentina/maipu_wine.jpg");
 
-INSERT IGNORE INTO PRODUCTOS (nombre, descripcion, descripcion_larga, itinerario, imagen_url, imagen_url2,
+INSERT IGNORE INTO productos (nombre, descripcion, descripcion_larga, itinerario, imagen_url, imagen_url2,
         imagen_url3, precio, disponible, ubicacion, detalle_itinerario, categoria_id)
 VALUES
 ('San Carlos de Bariloche',
